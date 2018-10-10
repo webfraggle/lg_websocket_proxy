@@ -1,0 +1,22 @@
+{
+  "name": "lg-websocket-proxy",
+  "version": "0.0.1",
+  "description": "A ws proxy for lg webos tvs",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "lgtv2": "^1.4.1",
+    "ws": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js"
+  },
+  "keywords": [
+    "lg",
+    "webos",
+    "websocket"
+  ],
+  "author": "Christoph Ketzler",
+  "license": "MIT"
+}
